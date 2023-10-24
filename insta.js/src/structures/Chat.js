@@ -199,6 +199,7 @@ class Chat {
         })
     }
 
+
     /**
      * Send a message in the chat
      * @param {string} content The content of the message to send

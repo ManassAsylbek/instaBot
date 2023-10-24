@@ -1,16 +1,21 @@
 {
   "name": "insta-chatbot",
   "version": "1.0.0",
-  "description": "instagram chatbot by venomexe",
+  "description": "instagram chatbot with OpenAI chatGpt",
   "main": "main.js",
   "scripts": {
     "run": "node main.js",
     "start": "node main.js"
   },
-  "author": "venom-exe",
+  "author": "Viking",
   "license": "GNU",
   "dependencies": {
     "@androz2091/insta.js": "^1.6.1",
-    "node-fetch": "^2.6.0"
+    "dotenv": "^16.3.1",
+    "openai": "^4.12.4",
+    "telegraf": "^4.14.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.10"
   }
 }
