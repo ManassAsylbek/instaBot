@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for insta-bot on 2023-10-20T15:08:19+06:00
+# fly.toml app configuration file generated for instabotv3 on 2023-10-24T20:53:00+06:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "insta-bot"
+app = "instabotv3"
 primary_region = "ams"
 
 [build]
